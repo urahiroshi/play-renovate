@@ -1,0 +1,50 @@
+{
+  "name": "e2e-server-gui",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "lint": "eslint --ext .jsx,.js javascripts.src/"
+  },
+  "dependencies": {
+    "axios": "^0.14.0",
+    "babel-polyfill": "^6.16.0",
+    "bluebird": "^3.4.3",
+    "body-parser": "~1.13.2",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "file-loader": "^0.10.1",
+    "jade": "~1.11.0",
+    "js-yaml": "^3.8.2",
+    "lodash": "^4.15.0",
+    "morgan": "~1.6.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.7.4",
+    "redux-saga": "^0.11.1",
+    "request": "^2.74.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-import-resolver-webpack": "^0.5.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2"
+  }
+}
