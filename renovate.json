@@ -1,5 +1,26 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "labels": [
+    "Renovate"
+  ],
+  "major": {
+    "labels": ["Major"]
+  },
+  "minor": {
+    "labels": ["Minor"]
+  },
+  "patch": {
+    "labels": ["Patch"]
+  },
+  "vulnerabilityAlerts": {
+    "labels": ["Security"]
+  },
+  "packageRules": [
+    {
+      "groupName": "react group",
+      "packageNames": ["react", "react-dom"]
+    }
+  ]  
 }
