@@ -23,6 +23,9 @@
       "vulnerabilityAlerts": {
         "labels": ["Renovate", "dependencies", "Major", "Security"]
       }
+    },
+    "vulnerabilityAlerts": {
+      "labels": ["Renovate", "dependencies", "Security"]
     }
   },
   "devDependencies": {
@@ -34,6 +37,9 @@
       "vulnerabilityAlerts": {
         "labels": ["Renovate", "devDependencies", "Major", "Security"]
       }
+    },
+    "vulnerabilityAlerts": {
+      "labels": ["Renovate", "devDependencies", "Security"]
     }
   },
   "packageRules": [
