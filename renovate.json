@@ -46,6 +46,10 @@
     {
       "groupName": "react group",
       "packageNames": ["react", "react-dom"]
+    },
+    {
+      "groupName": "eslint group",
+      "packagePatterns": ["^eslint"]
     }
   ]
 }
