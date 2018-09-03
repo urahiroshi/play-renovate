@@ -6,21 +6,40 @@
     "Renovate"
   ],
   "major": {
-    "labels": ["Major"]
-  },
-  "minor": {
-    "labels": ["Minor"]
-  },
-  "patch": {
-    "labels": ["Patch"]
+    "labels": ["Renovate",  "Major"],
+    "vulnerabilityAlerts": {
+      "labels": ["Renovate", "Major", "Security"]
+    }
   },
   "vulnerabilityAlerts": {
-    "labels": ["Security"]
+    "labels": ["Renovate", "Security"]
+  },
+  "dependencies": {
+    "labels": [
+      "Renovate", "dependencies"
+    ],
+    "major": {
+      "labels": ["Renovate",  "dependencies", "Major"],
+      "vulnerabilityAlerts": {
+        "labels": ["Renovate", "dependencies", "Major", "Security"]
+      }
+    }
+  },
+  "devDependencies": {
+    "labels": [
+      "Renovate", "devDependencies"
+    ],
+    "major": {
+      "labels": ["Renovate",  "devDependencies", "Major"],
+      "vulnerabilityAlerts": {
+        "labels": ["Renovate", "devDependencies", "Major", "Security"]
+      }
+    }
   },
   "packageRules": [
     {
       "groupName": "react group",
       "packageNames": ["react", "react-dom"]
     }
-  ]  
+  ]
 }
