@@ -2,28 +2,10 @@
   "extends": [
     "config:base"
   ],
-  "labels": [
-    "Renovate"
-  ],
-  "major": {
-    "labels": ["Renovate",  "Major"],
-    "vulnerabilityAlerts": {
-      "labels": ["Renovate", "Major", "Security"]
-    }
-  },
-  "vulnerabilityAlerts": {
-    "labels": ["Renovate", "Security"]
-  },
   "dependencies": {
     "labels": [
       "Renovate", "dependencies"
     ],
-    "major": {
-      "labels": ["Renovate",  "dependencies", "Major"],
-      "vulnerabilityAlerts": {
-        "labels": ["Renovate", "dependencies", "Major", "Security"]
-      }
-    },
     "vulnerabilityAlerts": {
       "labels": ["Renovate", "dependencies", "Security"]
     }
@@ -32,12 +14,6 @@
     "labels": [
       "Renovate", "devDependencies"
     ],
-    "major": {
-      "labels": ["Renovate",  "devDependencies", "Major"],
-      "vulnerabilityAlerts": {
-        "labels": ["Renovate", "devDependencies", "Major", "Security"]
-      }
-    },
     "vulnerabilityAlerts": {
       "labels": ["Renovate", "devDependencies", "Security"]
     }
