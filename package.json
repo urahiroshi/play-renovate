@@ -44,7 +44,7 @@
     "eslint-plugin-jsx-a11y": "2.2.3",
     "eslint-plugin-react": "6.10.3",
     "style-loader": "0.13.2",
-    "url-loader": "0.5.9",
+    "url-loader": "0.6.2",
     "webpack": "1.15.0"
   }
 }
